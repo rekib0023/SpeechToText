@@ -40,7 +40,7 @@ There are two ways to create an AudioData instance: from an audio file or audio 
 We will look into recording by a microphone.
 ____
 
-### Working with microphones
+## Working with microphones
 To access the microphone with SpeechRecognizer, we’ll have to install the Pyaudio package.
 
 ## Installing Pyaudio: 
