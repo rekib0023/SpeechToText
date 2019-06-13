@@ -4,8 +4,6 @@ ___
 
 #### I used the *SpeechRecognition* package in python for this project.
 
-- ## [Web](#web)
-
 
 ## Installing SpeechRecognition:
 To install the ***SpeechRecognition*** package; open Pycharm and type the following command: 
