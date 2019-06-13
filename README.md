@@ -1,8 +1,10 @@
 # Speech to Text Translation Project
 ___
 # We will be searching for movie ratings and movie trailer by speaking to the Computer
-___
+
 #### I used the *SpeechRecognition* package in python for this project.
+
+- ## [Web] (#web)
 
 
 ## Installing SpeechRecognition:
@@ -38,6 +40,7 @@ All seven recognize_*() methods of the Recognizer class require an audio_data ar
 
 There are two ways to create an AudioData instance: from an audio file or audio recorded by a microphone.
 We will look into recording by a microphone.
+____
 
 ### Working with microphones
 To access the microphone with SpeechRecognizer, we’ll have to install the Pyaudio package.
@@ -75,6 +78,7 @@ recognize_google() takes the audio as its first argument and converts it to text
         audio = r.listen(source)
         text = r.recognize_google(audio)
         
+____        
 ## Covering up all
 Let us convert some speech to text.
 
@@ -90,8 +94,8 @@ Let us convert some speech to text.
 Try speaking 'hello world' to the microphone. It prints out: 
     
     hello world
-    
-## Opening the Web Browser
+____   
+## <a name="web"></a>Opening the Web Browser
 Opening of the web browser can be done with the help of ***WebBrowser*** package.
 
     import webbrowser as wb
