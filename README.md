@@ -1,16 +1,16 @@
-#Speech to Text Translation Project
+# Speech to Text Translation Project
 ___
-#We will be searching for movie ratings and movie trailer by speaking to the Computer
+# We will be searching for movie ratings and movie trailer by speaking to the Computer
 ___
-####I used the *SpeechRecognition* package in python for this project.
+#### I used the *SpeechRecognition* package in python for this project.
 
 
-###Installing SpeechRecognition:
+### Installing SpeechRecognition:
 To install the ***SpeechRecognition*** package; open Pycharm and type the following command: 
 
     $ pip install speechrecognition
 
-##The Recognizer class
+## The Recognizer class
 All of the magic in SpeechRecognition happens with the Recognizer class.
 
 The primary purpose of a Recognizer instance is, of course, to recognize speech. Each instance comes with a variety of settings and functionality for recognizing speech from an audio source.
@@ -39,10 +39,10 @@ All seven recognize_*() methods of the Recognizer class require an audio_data ar
 There are two ways to create an AudioData instance: from an audio file or audio recorded by a microphone.
 We will look into recording by a microphone.
 
-##Working with microphones
+## Working with microphones
 To access the microphone with SpeechRecognizer, we’ll have to install the Pyaudio package.
 
-###Installing Pyaudio: 
+### Installing Pyaudio: 
 To work with microphones we need to install the [Pyaudio](https://people.csail.mit.edu/hubert/pyaudio/) package:
 
     $ sudo apt-get update
@@ -51,7 +51,7 @@ To work with microphones we need to install the [Pyaudio](https://people.csail.m
     
     $ pip install pyaudio
     
-###The Microphone Class
+### The Microphone Class
 Open up Pycharm and create an instance of the recognizer class.
 
     import speech_recognition as sr
@@ -61,13 +61,13 @@ We will use the audio from the microphone as source. We can access the microphon
 
     mic = sr.Microphone()
     
-###Using listen() to Capture Microphone Input
+### Using listen() to Capture Microphone Input
 We can capture input from the microphone using the listen() method of the Recognizer class inside of the with block. This method takes an audio source as its first argument and records input from the source until silence is detected.
 
     with mic as source:
         audio = r.listen()
         
-###Converting audio to text
+### Converting audio to text
 We can now invoke recognize_google() to attempt to recognize any speech in the audio.
 recognize_google() takes the audio as its first argument and converts it to text.
 
@@ -75,7 +75,7 @@ recognize_google() takes the audio as its first argument and converts it to text
         audio = r.listen(source)
         text = r.recognize_google(audio)
         
-##Covering up all
+## Covering up all
 Let us convert some speech to text.
 
     import speech_recognition as sr
@@ -91,7 +91,7 @@ Try speaking 'hello world' to the microphone. It prints out:
     
     hello world
     
-##Opening the Web Browser
+## Opening the Web Browser
 Opening of the web browser can be done with the help of ***WebBrowser*** package.
 
     import webbrowser as wb
