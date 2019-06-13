@@ -5,12 +5,12 @@ ___
 #### I used the *SpeechRecognition* package in python for this project.
 
 
-### Installing SpeechRecognition:
+## Installing SpeechRecognition:
 To install the ***SpeechRecognition*** package; open Pycharm and type the following command: 
 
     $ pip install speechrecognition
 
-## The Recognizer class
+### The Recognizer class
 All of the magic in SpeechRecognition happens with the Recognizer class.
 
 The primary purpose of a Recognizer instance is, of course, to recognize speech. Each instance comes with a variety of settings and functionality for recognizing speech from an audio source.
@@ -39,10 +39,10 @@ All seven recognize_*() methods of the Recognizer class require an audio_data ar
 There are two ways to create an AudioData instance: from an audio file or audio recorded by a microphone.
 We will look into recording by a microphone.
 
-## Working with microphones
+### Working with microphones
 To access the microphone with SpeechRecognizer, we’ll have to install the Pyaudio package.
 
-### Installing Pyaudio: 
+## Installing Pyaudio: 
 To work with microphones we need to install the [Pyaudio](https://people.csail.mit.edu/hubert/pyaudio/) package:
 
     $ sudo apt-get update
