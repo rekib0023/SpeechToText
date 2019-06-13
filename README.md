@@ -4,6 +4,10 @@ ___
 
 #### I used the *SpeechRecognition* package in python for this project.
 
+- ### [Installing SpeechRecognition](#-installing-speechrecognition)
+- ### [The Recognizer class](#-the-recognizer-class)
+- ### [Working with microphones](#-working-with-microphones)
+
 
 ## Installing SpeechRecognition:
 To install the ***SpeechRecognition*** package; open Pycharm and type the following command: 
