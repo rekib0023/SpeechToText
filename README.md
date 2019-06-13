@@ -17,11 +17,8 @@ The primary purpose of a Recognizer instance is, of course, to recognize speech.
 
 Creating a Recognizer instance is easy, open up your pycharm project, and type:
     
-    ```python
     import speech_recognition as sr
-    r = sr.Recognizer()
-    ```
-    
+    r = sr.Recognizer()    
 
 Each Recognizer instance has seven methods for recognizing speech from an audio source using various APIs. These are:
 
@@ -57,10 +54,8 @@ To work with microphones we need to install the [Pyaudio](https://people.csail.m
 ###The Microphone Class
 Open up Pycharm and create an instance of the recognizer class.
 
-    ```python
     import speech_recognition as sr
     r = sr.Recogizer()
-    ```
     
 We will use the audio from the microphone as source. We can access the microphone by creating an instance of the Microphone class.
 
