@@ -1,9 +1,7 @@
 # Speech to Text Translation Project
-___
-# We will be searching for movie ratings and movie trailer by speaking to the Computer
+## We will be searching for movie ratings and movie trailer by speaking to the Computer
 
 #### I used the *SpeechRecognition* package in python for this project.
-____
 
 ## Installing SpeechRecognition:
 To install the ***SpeechRecognition*** package; open Pycharm and type the following command: 
